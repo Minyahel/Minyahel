@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/minyahel/static/css/main.9bcb1388.chunk.css",
+    "main.js": "/minyahel/static/js/main.ef98748b.chunk.js",
+    "main.js.map": "/minyahel/static/js/main.ef98748b.chunk.js.map",
+    "runtime-main.js": "/minyahel/static/js/runtime-main.920befe4.js",
+    "runtime-main.js.map": "/minyahel/static/js/runtime-main.920befe4.js.map",
+    "static/css/2.a2524b97.chunk.css": "/minyahel/static/css/2.a2524b97.chunk.css",
+    "static/js/2.25154fcb.chunk.js": "/minyahel/static/js/2.25154fcb.chunk.js",
+    "static/js/2.25154fcb.chunk.js.map": "/minyahel/static/js/2.25154fcb.chunk.js.map",
+    "index.html": "/minyahel/index.html",
+    "precache-manifest.bec135cfacd9a1f0bbae8c2fbfbfa8ad.js": "/minyahel/precache-manifest.bec135cfacd9a1f0bbae8c2fbfbfa8ad.js",
+    "service-worker.js": "/minyahel/service-worker.js",
+    "static/css/2.a2524b97.chunk.css.map": "/minyahel/static/css/2.a2524b97.chunk.css.map",
+    "static/css/main.9bcb1388.chunk.css.map": "/minyahel/static/css/main.9bcb1388.chunk.css.map",
+    "static/js/2.25154fcb.chunk.js.LICENSE.txt": "/minyahel/static/js/2.25154fcb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.920befe4.js",
+    "static/css/2.a2524b97.chunk.css",
+    "static/js/2.25154fcb.chunk.js",
+    "static/css/main.9bcb1388.chunk.css",
+    "static/js/main.ef98748b.chunk.js"
+  ]
+}

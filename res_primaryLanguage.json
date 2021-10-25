@@ -1,0 +1,98 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Minyahel Haile. An Ethiopian studying Computer Science in Germany :) I'm working the latest technologies in web development like Angular, React and GraphQL",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "",
+        "startDate": "",
+        "description": "",
+        "images": [
+        ],
+        "url": "",
+        "technologies": [
+          {
+         
+          },
+          {
+
+          },
+          {
+
+          }
+        ]
+      },
+      {
+        "title": "",
+        "startDate": "",
+        "description": "",
+        "images": [
+        ],
+        "url": "" ,
+        "technologies": [
+          {
+            "class": "",
+            "name": ""
+          },
+          {
+            "class": "",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "startDate": "",
+        "description": "",
+        "images": [
+  
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "",
+            "name": ""
+          },
+          {
+            "class": "",
+            "name": ""
+          },
+          {
+            "class": "",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "",
+        "title": "",
+        "years": "",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+         
+        ]
+      },
+      {
+        "company": "",
+        "title": "",
+        "years": "",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+   
+        ]
+      }
+    ]
+  }
