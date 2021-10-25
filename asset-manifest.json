@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Minyahel/static/css/main.9bcb1388.chunk.css",
-    "main.js": "/Minyahel/static/js/main.23024a36.chunk.js",
-    "main.js.map": "/Minyahel/static/js/main.23024a36.chunk.js.map",
+    "main.js": "/Minyahel/static/js/main.1da666c1.chunk.js",
+    "main.js.map": "/Minyahel/static/js/main.1da666c1.chunk.js.map",
     "runtime-main.js": "/Minyahel/static/js/runtime-main.30944cab.js",
     "runtime-main.js.map": "/Minyahel/static/js/runtime-main.30944cab.js.map",
     "static/css/2.a2524b97.chunk.css": "/Minyahel/static/css/2.a2524b97.chunk.css",
     "static/js/2.25154fcb.chunk.js": "/Minyahel/static/js/2.25154fcb.chunk.js",
     "static/js/2.25154fcb.chunk.js.map": "/Minyahel/static/js/2.25154fcb.chunk.js.map",
     "index.html": "/Minyahel/index.html",
-    "precache-manifest.e2a606f750d20b71868fede0a17e2ce8.js": "/Minyahel/precache-manifest.e2a606f750d20b71868fede0a17e2ce8.js",
+    "precache-manifest.9b5a46d729a5689e72e719d1ac43762d.js": "/Minyahel/precache-manifest.9b5a46d729a5689e72e719d1ac43762d.js",
     "service-worker.js": "/Minyahel/service-worker.js",
     "static/css/2.a2524b97.chunk.css.map": "/Minyahel/static/css/2.a2524b97.chunk.css.map",
     "static/css/main.9bcb1388.chunk.css.map": "/Minyahel/static/css/main.9bcb1388.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.a2524b97.chunk.css",
     "static/js/2.25154fcb.chunk.js",
     "static/css/main.9bcb1388.chunk.css",
-    "static/js/main.23024a36.chunk.js"
+    "static/js/main.1da666c1.chunk.js"
   ]
 }
