@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Minyahel Haile. An Ethiopian studying Computer Science in Germany :) I'm working the latest technologies in web development like Angular, React and GraphQL",
+      "description": "👋 I'm Minyahel. A Computer Scientist to-be from Ethiopia studying in Germany :) I'm fascinated by all binary technology from web development to compiler design!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,87 +11,28 @@
     },
     "projects": [
       {
-        "title": "",
+        "title": "Run-of-the-mill social media app",
         "startDate": "",
-        "description": "",
+        "description": "A social media app that allows user registration, posting, deleting, commenting",
         "images": [
         ],
-        "url": "",
+        "url": "https://pedantic-wiles-330009.netlify.app",
         "technologies": [
           {
-         
+            "name": "HTML 5",
+            "class": "devicon-html5-plain",
+            "level": "95"
           },
           {
-
+            "name": "CSS 3",
+            "class": "devicon-css3-plain",
+            "level": "95"
           },
           {
-
+            "name": "React",
+            "class": "devicon-react-plain",
+            "level": "50"
           }
-        ]
-      },
-      {
-        "title": "",
-        "startDate": "",
-        "description": "",
-        "images": [
-        ],
-        "url": "" ,
-        "technologies": [
-          {
-            "class": "",
-            "name": ""
-          },
-          {
-            "class": "",
-            "name": ""
-          }
-        ]
-      },
-      {
-        "title": "",
-        "startDate": "",
-        "description": "",
-        "images": [
-  
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "",
-            "name": ""
-          },
-          {
-            "class": "",
-            "name": ""
-          },
-          {
-            "class": "",
-            "name": ""
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "",
-        "title": "",
-        "years": "",
-        "mainTech": [
-          ""
-        ],
-        "technologies": [
-         
-        ]
-      },
-      {
-        "company": "",
-        "title": "",
-        "years": "",
-        "mainTech": [
-          ""
-        ],
-        "technologies": [
-   
         ]
       }
     ]
