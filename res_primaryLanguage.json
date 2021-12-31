@@ -12,9 +12,10 @@
     "projects": [
       {
         "title": "Run-of-the-mill social media app",
-        "startDate": "",
+        "startDate": "10.5.2021",
         "description": "A social media app that allows user registration, posting, deleting, commenting",
         "images": [
+          "public/images/reactsocial.JPG"
         ],
         "url": "https://pedantic-wiles-330009.netlify.app",
         "technologies": [
