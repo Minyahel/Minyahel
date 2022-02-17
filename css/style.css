@@ -182,7 +182,8 @@ html {
 }
 
 #modal01 {
-    background: (124, 124, 124);
+    /* background: (124, 124, 124); */
+    background-color: rgba(124, 124, 124, 0.95);
 }
 
 #modal01 img {
@@ -191,7 +192,7 @@ html {
 
 #caption {
     color: #000000;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     border-radius: 10px;
 }
 
