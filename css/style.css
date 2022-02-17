@@ -81,8 +81,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid 1px black; */
-    gap: 100px;
+    border: solid 1px black;
+    min-height: 100vh;
+    gap: 5%;
 }
 
 #homeTop {
@@ -93,10 +94,8 @@ html {
     font-size: 2rem;
 }
 
-
-
 .cvPhoto {
-    width: 300px;
+    width: 16rem;
     display: block;
 }
 
@@ -128,4 +127,19 @@ html {
 .mainText {
     font-size: 1.3rem;
     text-align: justify;
+}
+
+#arrow {
+    width: 2rem;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.techSvg {
+    width: 3rem;
+}
+
+.techSvg:hover {
+    width: 5rem;
+    transition: 0.3s;
 }
