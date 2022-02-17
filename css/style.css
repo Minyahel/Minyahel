@@ -28,6 +28,7 @@ html {
     line-height: 1.8;
     width: 50vw;
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 /* Create a Parallax Effect */
@@ -81,7 +82,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     min-height: 100vh;
     gap: 5%;
 }
@@ -118,28 +119,149 @@ html {
 
 #myNavbar {
     width: 50vw;
+    border-radius: 0 0 10px 10px;
+    transition: 0.3s;
+    color: #7c7c7c;
+}
+
+#myNavbar a {
+    transition: 0.3s;
+}
+
+#myNavbar a:hover {
+    color: #afafaf !important;
+    transition: 0.3s;
+    background-color: initial !important;
 }
 
 .w3-animate-top {
     animation-name: none;
+    color: #7c7c7c !important;
+
 }
 
 .mainText {
     font-size: 1.3rem;
     text-align: justify;
+    padding: 20px 0;
 }
 
 #arrow {
-    width: 2rem;
+    width: 5rem;
     justify-self: center;
     align-self: flex-end;
 }
 
+.tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7vw;
+}
+
 .techSvg {
-    width: 3rem;
+    width: 3.5rem;
+    transition: 0.3s;
 }
 
 .techSvg:hover {
-    width: 5rem;
+    /* width: 5rem; */
+    transition: 0.3s;
+    filter: drop-shadow(0 0 1rem #7c7c7c);
+    cursor: pointer;
+}
+
+.skillSet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio img {
+    border-radius: 10px;
+}
+
+#modal01 {
+    background: (124, 124, 124);
+}
+
+#modal01 img {
+    border-radius: 25px;
+}
+
+#caption {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#buttonContainer {
+    width: 100%;
+}
+
+.downloadButton {
+    margin: auto;
+    width: fit-content;
+}
+
+.button {
+    border-radius: 10px;
     transition: 0.3s;
 }
+
+.button:hover {
+    transition: 0.3s;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    border-radius: 10px;
+}
+
+.sendButton {
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+.links {
+    color: #7c7c7c;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+
+.links i {
+    padding: 0 10px;
+    transition: 0.3s;
+}
+
+.links i:hover {
+    transition: 0.3s;
+}
+
+
+#homeButton {
+    border-radius: 10px;
+    margin: 15px;
+    color: #7c7c7c !important;
+}
+
+#homeButton {
+    transition: 0.3s;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {}
