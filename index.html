@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css">
 <script src="https://kit.fontawesome.com/1ccab8aa0c.js" crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="/img/M.svg">
+
 
 <link rel="stylesheet" href="./css/style.css">
 <style>
@@ -111,35 +113,44 @@
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
         <div class="w3-row-padding w3-center portfolio">
             <div class="w3-col m3">
-                <img src="./img/sampleImg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                    alt="A Social Media app with CRUD, built with Nodejs, Apollo Server, Graphql, MongoDB and React"
-                    link="https://github.com/Minyahel/react-social-media">
+                <img src="./img/reactSocial.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="A Social Media app with CRUD, built with Nodejs, Apollo Server, Graphql, MongoDB and React">
                 <p><em>React Social Media App</em></p>
             </div>
 
             <div class="w3-col m3">
-                <img src="./img/sampleImg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./img/itemRental.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="A job posting site built with Nodejs, MongoDB and React">
                 <p><em>Quicwork Job Posting Site</em></p>
 
             </div>
 
             <div class="w3-col m3">
-                <img src="./img/sampleImg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./img/noPreview.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="A football leage management app built with python tkinter and excel">
                 <p><em>Football Management App</em></p>
 
             </div>
 
             <div class="w3-col m3">
-                <img src="./img/sampleImg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./img/noPreview.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="An item rental site built with php and mysql">
                 <p><em>Item Rental App</em></p>
 
             </div>
         </div>
 
-        <div class="w3-row-padding w3-center w3-section portfolio">
+        <!-- <div class="w3-row-padding w3-center w3-section portfolio">
+            <div class="w3-col m3">
+                <img src="./img/sampleImg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="A voting system made with java">
+                <p><em>Voting System </em></p>
+
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./img/sampleImg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="My beloved typewriter"><div class="w3-row-padding w3-center w3-section portfolio">
             <div class="w3-col m3">
                 <img src="./img/sampleImg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="A voting system made with java">
@@ -155,6 +166,11 @@
             </div>
 
         </div>
+                <p><em>React Social Media App</em></p>
+
+            </div>
+
+        </div> -->
     </div>
     </div>
 
@@ -254,11 +270,36 @@
 
     <script>
         // Modal Image Gallery
+
         function onClick(element) {
+            console.log("here")
+
             document.getElementById("img01").src = element.src;
             document.getElementById("modal01").style.display = "block";
             var captionText = document.getElementById("caption");
-            captionText.innerHTML = element.alt;
+            var elem = "<br><a href='";
+            var img = element.src.split('/');
+            var img = img[img.length - 1];
+
+            switch (img) {
+                case 'reactSocial.png':
+                    elem = elem + "https://github.com/Minyahel/react-social-media'";
+                    break;
+                case 'quicWork.png':
+                    elem = elem + "https://github.com/Minyahel/quicwork'";
+                    break;
+                case 'footBall.png':
+                    elem = elem + "https://github.com/Minyahel/Football-system'";
+                    break;
+                case 'itemRental.png':
+                    elem = elem + "https://github.com/Minyahel/DBWS-Project'";
+                    break;
+            }
+
+            elem = elem + ">Link</a>";
+
+            captionText.innerHTML = element.alt + elem;
+
         }
 
         // Change style of navbar on scroll
